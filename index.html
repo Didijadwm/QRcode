@@ -14,25 +14,27 @@
     .attribution a { color: hsl(228, 45%, 44%); }
 
     body{
-      background:hsl(228, 100%, 89%);
-
+      background: hsl(212, 45%, 89%);
+      display: grid;
+      place-content: center;
     }
-  
+
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
     .card{
       width: 300px;
       background: white;
-      position: relative;
+      
       border-radius: 15px;
       align-items: center;
       margin-bottom: 40px;
       margin-top: 100px;
-      margin-left:  500px;
+      
     }
     @media only screen and (max-width: 600px) {
       .card{
       width: 300px;
       background: white;
-      position: relative;
+      
       border-radius: 15px;
       align-items: center;
       margin-bottom: 40px;
@@ -44,7 +46,7 @@
     .card-img{
       width: 100%;
       padding: 15px;
-      align-items: center;
+     
     }
     .card-img img{
       align-items: center;
@@ -55,16 +57,16 @@
       text-align: center;
       padding: 10px 15px;
       font-size: x-small;
-      margin-left: 20px;
+      
     }
     .card-text h1{
-      font-family: sans-serif;
+      font-family: 'Outfit', sans-serif;
       
     }
     .card-text p{
       font-family: cursive;
-      color: gray;
-      font-size: small;
+      color: hsl(220, 15%, 55%);
+      font-size: 15px;
     }
   </style>
 </head>
